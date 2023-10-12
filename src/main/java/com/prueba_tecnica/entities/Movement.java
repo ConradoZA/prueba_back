@@ -16,6 +16,7 @@ import java.time.LocalDate;
 @ToString
 public class Movement {
 
+    // ID compuesto por las cuatro columnas
     @Id
     @ManyToOne
     @PrimaryKeyJoinColumn(name = "iban")
